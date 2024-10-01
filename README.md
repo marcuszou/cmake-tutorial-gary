@@ -85,7 +85,7 @@ int main() {
 and another header file: `random.c`:
 
 ```c
-#include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
@@ -101,9 +101,15 @@ double random_normal()  /* normal distribution, centered on 0, std dev 1 */
 }
 ```
 
+and the header file: `random.h`:
+
+```c
+double random_normal();
+```
 
 
-## How to Compile a Bigger C Program
+
+## Compile a Bigger C Program - Conventional method
 
 To compile it:
 
@@ -176,13 +182,15 @@ add_executable(hellow hellow.c)
 
 ## How to apply
 
-Install `cmake` in case of no such package is available
+Install `cmake` and `ninja` in case of no such package is available
 
 ```
 ## Linux
-sudo apt install cmake
+sudo apt install cmake ninja-build
 ## macOS
-brew install cmake
+brew install cmake ninja
+## Windows
+winget install Ninja-build.Ninja
 ```
 
 Run the code

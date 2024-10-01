@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/marcus/Desktop/projects/cmake-tutorial-gary/random/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
-  "/Users/marcus/Desktop/projects/cmake-tutorial-gary/random/random.c" "CMakeFiles/main.dir/random.c.o" "gcc" "CMakeFiles/main.dir/random.c.o.d"
+  "/home/zenusr/projects/cmake-tutorial-gary/random/main.c" "CMakeFiles/main.dir/main.c.o" "gcc" "CMakeFiles/main.dir/main.c.o.d"
+  "/home/zenusr/projects/cmake-tutorial-gary/random/random.c" "CMakeFiles/main.dir/random.c.o" "gcc" "CMakeFiles/main.dir/random.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

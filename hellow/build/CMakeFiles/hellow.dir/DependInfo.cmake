@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/marcus/Desktop/projects/cmake-tutorial-gary/hellow/hellow.c" "CMakeFiles/hellow.dir/hellow.c.o" "gcc" "CMakeFiles/hellow.dir/hellow.c.o.d"
+  "/home/zenusr/projects/cmake-tutorial-gary/hellow/hellow.c" "CMakeFiles/hellow.dir/hellow.c.o" "gcc" "CMakeFiles/hellow.dir/hellow.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
